@@ -1,0 +1,51 @@
+/* task 1: */
+.bar .progress
+{
+ margin-left: 50px;
+ margin-right: 50px;
+}
+.glyphicon
+{
+    margin: 10px;
+}
+
+.container .ss{
+    margin-left: 900px;
+}
+
+.navbar-inverse
+{
+    height: 30px;
+} 
+
+ /* used for center */
+.pagination 
+{
+   
+    justify-content: center;
+}
+
+
+/* for spacing between buttons */
+ .page
+{
+   margin: 20px;
+}
+
+
+
+.alert-dark
+{
+    color: white!important;
+    background-color: red !important;
+}
+.alert-secondary
+{
+    color: white!important;
+    background-color:green !important;
+}
+.alert-success
+{
+    color: white!important;
+    background-color:blue !important;
+}

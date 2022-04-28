@@ -1,0 +1,16 @@
+
+    .heading1{
+        color: blue;
+    }
+    ul{
+        list-style-type: none;
+    }
+
+   a{
+    text-decoration: none;
+   margin-left: -2%;
+   }
+    a:hover
+    {
+       background-color: yellow;
+    } 

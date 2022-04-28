@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+}
+
+
+.main
+{
+    margin: 0;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    
+}
+
+.image
+{
+
+flex-wrap: wrap;
+flex-direction: row;
+display: flex;
+margin-top: 500px;
+justify-content: center;
+
+
+}
+.main img{
+    position: fixed;
+}
+.single
+{
+    padding: 30px;
+    align-items: center;
+    
+}
