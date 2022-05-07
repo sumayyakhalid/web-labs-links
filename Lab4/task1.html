@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num1=prompt("Enter value 1");
+        var num2=prompt("Enter value 2");
+        var result;
+        var option=prompt("Which operation do you want to perform.... 1)* , 2)/  ,3)- , 4)+  ,5)++ ,6)-- ,7)%");
+        if(option==1)
+        {
+         result=num1*num2;
+         alert("Multiplication result is "+result);
+        }
+        else if(option==2)
+        {
+            result=num1/num2;
+         alert("Divion Result result is "+result);
+        }
+        else if(option==3)
+        {
+            result=num1-num2;
+         alert("Subtraction Result result is "+result);
+        }
+        else if(option==4)
+        {
+            result=num1+num2;
+         alert("Addition Result result is "+result);
+        }
+        else if(option==5)
+        {
+            result=++num1;
+            var increment=++num2;
+         alert("Increment Result result for number 1 is "+result);
+         alert("Increment Result result for number 2 is "+increment);
+        }
+        else if(option==6)
+        {
+            result=--num1;
+            var decrement=--num2;
+         alert("Decrement Result result for number 1 is "+result);
+         alert("Decrement Result result for number 2 is "+decrement);
+        }
+        else if(option==7)
+        {
+            result=num1%num2;
+         alert("Modulus Result result is "+result);
+        }
+        else{
+            alert("Invalid input")
+        }
+
+    </script>
+</body>
+</html>
