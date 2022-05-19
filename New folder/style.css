@@ -1,155 +1,221 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
 body{
-    background-color: black; 
+  background-color: black; 
 }
 /*--------------------------- start navbar--------------r */
 .navbar-toggler-icon
 {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 .container-fluid
 {
-    
-    background-color: black;
+  
+  background-color: black;
 }
 
 a.nav-link.active:hover
 {
-    background-color:crimson; 
+  background-color:crimson; 
 }
 
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link
 {
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-    font-size: larger;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  border-radius: 20px;
 }
 .navbar
 {
-  padding-bottom: 0px;
+padding-bottom: 0px;
 
 }
 
 /* -------------End navbar------------------ */
 /* -------------start about------------ */
 .about  {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
+  position: relative;
+  text-align: center;
+  color: white;
+}
 .fa img
 {
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .center 
 {
-  
-    position: absolute;
-    top: 30%;
-    left:40%;
-   color:yellow;
-      font-family: Brush Script Std, cursive;
-      font-size: 30px;
-      display: flex;
-      justify-content: center;
-      flex: wrap;
-      flex-wrap: wrap;
-   
+
+  position: absolute;
+  top: 30%;
+  left:30%;
+ color:yellow;
+    font-family: Brush Script Std, cursive;
+    font-size: 20px;
+ 
+ 
 }
 
 /* ----------End About-------------- */
 /* -----------------start gallery/Categories-------------- */
-/* Center website */
-.main {
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  h1 {
-    font-family: Brush Script Std, cursive;
-    font-size: 40px;
-    word-break: break-all;
-    color: yellow;
-  }
-  h4,h5{
-    font-family: Brush Script Std, cursive;
-    color: white;
-    
-  }
-  .cat{
-  background-color: black;
-  width: 100%;
-  height: 100%;
-}
-  .row {
-    margin: 8px -16px;
-    }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Content */
-  .content {
-    background-color:black;
-    padding: 10px;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-  .shop-item-button{
-    background-color:yellow ;
-    color: black;
-    padding: 5px;
-    font-family: Brush Script Std, cursive;
-    font-size: 16px;
-    border-radius: 5%;
-  }
-  /* -------------------------End CATEGROIES--------- */
 
- 
-h2{
- 
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-family: Brush Script Std, cursive;
+  font-size: 40px;
+  word-break: break-all;
+  color: yellow;
+}
+h4,h5,.addinglist{
+  font-family: Brush Script Std, cursive;
+  color: white;
+  
+}
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+
+/* Content */
+.content {
+  background-color:black;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.shop-item-button1{
+  background-color:yellow ;
   color: black;
   padding: 5px;
   font-family: Brush Script Std, cursive;
-  font-size: 20px;
- 
+  font-size: 16px;
+  border-radius: 5%;
 }
-  
+.shop-item-button1:hover{
+  background-color: red;
+}
+.shop-item-button2{
+  background-color:yellow ;
+  color: black;
+  padding: 5px;
+  font-family: Brush Script Std, cursive;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.shop-item-button2:hover{
+  background-color: red;
+}
+.shop-item-button3{
+  background-color:yellow ;
+  color: black;
+  padding: 5px;
+  font-family: Brush Script Std, cursive;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.shop-item-button3:hover{
+  background-color: red;
+}
+.shop-item-button4{
+  background-color:yellow ;
+  color: black;
+  padding: 5px;
+  font-family: Brush Script Std, cursive;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.shop-item-button4:hover{
+  background-color: red;
+}
+.shop-item-button5{
+  background-color:yellow ;
+  color: black;
+  padding: 5px;
+  font-family: Brush Script Std, cursive;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.shop-item-button5:hover{
+  background-color: red;
+}
+.shop-item-button6{
+  background-color:yellow ;
+  color: black;
+  padding: 5px;
+  font-family: Brush Script Std, cursive;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.shop-item-button6:hover{
+  background-color: red;
+}
+.shop-item-button7{
+  background-color:yellow ;
+  color: black;
+  padding: 5px;
+  font-family: Brush Script Std, cursive;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.shop-item-button7:hover{
+  background-color: red;
+}
+.shop-item-button8{
+  background-color:yellow ;
+  color: black;
+  padding: 5px;
+  font-family: Brush Script Std, cursive;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.shop-item-button8:hover{
+  background-color: red;
+}
+/* -------------------------End CATEGROIES--------- */
+
+
+h2{
+
+color: black;
+padding: 5px;
+font-family: Brush Script Std, cursive;
+font-size: 20px;
+
+}
+#addinglist>li{
+color: white;
+font-family: Brush Script Std, cursive;
+ 
+
+}
+
 

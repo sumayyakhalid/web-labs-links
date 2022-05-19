@@ -1,36 +1,127 @@
-var addToCartButtons = document.getElementsByClassName('shop-item-button')
-for (var i = 0; i < addToCartButtons.length; i++) {
-    var button = addToCartButtons[i]
-    button.addEventListener('click', addToCartClicked)
+var ul= document.getElementById("addinglist");
+var button1=document.getElementsByClassName("shop-item-button1");
+var button2=document.getElementsByClassName("shop-item-button2");
+var button3=document.getElementsByClassName("shop-item-button3");
+var button4=document.getElementsByClassName("shop-item-button4");
+var button5=document.getElementsByClassName("shop-item-button5");
+var button6=document.getElementsByClassName("shop-item-button6");
+var button7=document.getElementsByClassName("shop-item-button7");
+var button8=document.getElementsByClassName("shop-item-button8");
+function createListElementone(){
+  var li = document.createElement("li");
+  var input=document.getElementsByClassName("shop-item-title1")[0].innerHTML;
+  var price=document.getElementsByClassName("shop-item-price1")[0].innerHTML;
+  li.appendChild(document.createTextNode(`Name: ${input} , Price:${price}`));
+  ul.appendChild(li);
+}
+function addListAfterClickone() {   
+    createListElementone();
+    alert("item is added to your cart");
 }
 
-document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+button1[0].addEventListener("click", addListAfterClickone);
 
 
-function purchaseClicked() {
-alert('Thank you for your purchase')
+      
+function createListElementtwo(){
+    var li = document.createElement("li");
+    var input=document.getElementsByClassName("shop-item-title2")[0].innerHTML;
+    var price=document.getElementsByClassName("shop-item-price2")[0].innerHTML;
+    li.appendChild(document.createTextNode(`Name: ${input} , Price:${price}`));
+    ul.appendChild(li);
+  }
+  function addListAfterClicktwo() {   
+      createListElementtwo();
+      alert("item is added to your cart");
+  }
+  
+  button2[0].addEventListener("click", addListAfterClicktwo);
+  
 
-}
+  function createListElement3(){
+    var li = document.createElement("li");
+    var input=document.getElementsByClassName("shop-item-title3")[0].innerHTML;
+    var price=document.getElementsByClassName("shop-item-price3")[0].innerHTML;
+    li.appendChild(document.createTextNode(`Name: ${input} , Price:${price}`));
+    ul.appendChild(li);
+  }
+  function addListAfterClick3() {   
+      createListElement3();
+      alert("item is added to your cart");
+  }
+  
+  button3[0].addEventListener("click", addListAfterClick3);
 
-function addToCartClicked(event) {
-var button = event.target
-var shopItem = button.parentElement.parentElement
-var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
-var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
-var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
+  function createListElement4(){
+    var li = document.createElement("li");
+    var input=document.getElementsByClassName("shop-item-title4")[0].innerHTML;
+    var price=document.getElementsByClassName("shop-item-price4")[0].innerHTML;
+    li.appendChild(document.createTextNode(`Name: ${input} , Price:${price}`));
+    ul.appendChild(li);
+  }
+  function addListAfterClick4() {   
+      createListElement4();
+      alert("item is added to your cart");
+  }
+  
+  button4[0].addEventListener("click", addListAfterClick4);
 
+  function createListElement5(){
+    var li = document.createElement("li");
+    var input=document.getElementsByClassName("shop-item-title5")[0].innerHTML;
+    var price=document.getElementsByClassName("shop-item-price5")[0].innerHTML;
+    li.appendChild(document.createTextNode(`Name: ${input} , Price:${price}`));
+    ul.appendChild(li);
+  }
+  function addListAfterClick5() {   
+      createListElement5();
+      alert("item is added to your cart");
+  }
+  
+  button5[0].addEventListener("click", addListAfterClick5);
 
-console.log(title);
-console.log(price);
-console.log(imageSrc);
+  function createListElement6(){
+    var li = document.createElement("li");
+    var input=document.getElementsByClassName("shop-item-title6")[0].innerHTML;
+    var price=document.getElementsByClassName("shop-item-price6")[0].innerHTML;
+    li.appendChild(document.createTextNode(`Name: ${input} , Price:${price}`));
+    ul.appendChild(li);
+  }
+  function addListAfterClick6() {   
+      createListElement6();
+      alert("item is added to your cart");
+  }
+  
+  button6[0].addEventListener("click", addListAfterClick6);
 
-}
+  function createListElement7(){
+    var li = document.createElement("li");
+    var input=document.getElementsByClassName("shop-item-title7")[0].innerHTML;
+    var price=document.getElementsByClassName("shop-item-price7")[0].innerHTML;
+    li.appendChild(document.createTextNode(`Name: ${input} , Price:${price}`));
+    ul.appendChild(li);
+  }
+  function addListAfterClick7() {   
+      createListElement7();
+      alert("item is added to your cart");
+  }
+  
+  button7[0].addEventListener("click", addListAfterClick7);
 
-// // ORDER------------------
-
-
-
-
+  function createListElement8(){
+    var li = document.createElement("li");
+    var input=document.getElementsByClassName("shop-item-title8")[0].innerHTML;
+    var price=document.getElementsByClassName("shop-item-price8")[0].innerHTML;
+    li.appendChild(document.createTextNode(`Name: ${input} , Price:${price}`));
+    ul.appendChild(li);
+  }
+  function addListAfterClick8() {   
+      createListElement8();
+      alert("item is added to your cart");
+  }
+  
+  button8[0].addEventListener("click", addListAfterClick8);
+// // Register with validation------------------
 
 function validation()
 {
